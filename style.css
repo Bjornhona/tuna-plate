@@ -19,7 +19,6 @@ body {
 h1 {
     font-family: 'Franchise-Bold';
     text-align: center;
-    font-size: 1.9em;
     color: #fff;
     text-transform: uppercase;
 }
@@ -42,8 +41,6 @@ h3 {
 h4 {
   color: #fff;
   font-family: 'Franchise-Bold', 'Open Sans', sans-serif;;
-  text-align: center;
-  font-size: 1.35em;
   text-transform: uppercase;
   margin: 10px;
 }
@@ -74,6 +71,16 @@ p {
 }
 
 @media (min-width: 768px) {
+  h1 {
+    font-size: 4em;
+    text-align: left;
+  }
+
+  h4 {
+    font-size: 1.6em;
+    text-align: left;
+  }
+
   .container {
     max-width: 728px;
     margin: 0 auto;
@@ -98,9 +105,22 @@ p {
     background-repeat: no-repeat;
     justify-content: center;
   }
+
+  section.about {
+    border-left: 2px solid #4eb045;
+  }
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 1.9em;
+  }
+
+  h4 {
+    font-size: 1.35em;
+    text-align: center;
+  }
+
   button.cta-button {
     font-size: 0.85em;
     width: 147px;
@@ -128,11 +148,6 @@ p {
 
 section.about {
   text-align: center;
-  background-color: #1c1a20;
-}
-
-section.trust-indicators {
-  background-color: #1c1a20;
 }
 
 img.emoji {
