@@ -34,7 +34,6 @@ h2 {
 h3 {
   color: #fff;
   font-family: 'Franchise-Bold', 'Open Sans', sans-serif;;
-  font-size: 1.5em;
   font-weight: 200;
 }
 
@@ -42,15 +41,16 @@ h4 {
   color: #fff;
   font-family: 'Franchise-Bold', 'Open Sans', sans-serif;;
   text-transform: uppercase;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 p {
   color: #fff;
   font-family: 'Roboto', 'Open Sans', sans-serif;
-  font-size: 14px;
   line-height: 2em;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 @font-face {
@@ -74,6 +74,13 @@ p {
   h1 {
     font-size: 4em;
     text-align: left;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 2.5em;
+    margin: 0;
+    padding-right: 70px;
   }
 
   h4 {
@@ -81,15 +88,19 @@ p {
     text-align: left;
   }
 
+  p {
+    font-size: 18px;
+  }
+
   .container {
     max-width: 728px;
-    margin: 0 auto;
   }
 
   button.cta-button {
     font-size: 1em;
     width: 190px;
     height: 47px;
+    margin-left: 100px;
   }
 
   body {
@@ -98,16 +109,46 @@ p {
   }
 
   div.sexy-broccoli {
-    display: flex;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    justify-content: center;
+    display: none;
   }
 
   section.about {
+    margin-top: 40px;
+  }
+
+  div.about-section {
     border-left: 2px solid #4eb045;
+    margin-left: 70px;
+    padding-left: 30px;
+  }
+
+  div.tagline {
+    width: 300px;
+  }
+
+  div.tagline p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  div.line h3 {
+      display: none;
+  }
+
+  section.trust-indicators {
+    justify-content: space-between;
+    margin-left: 100px;
+    padding-top: 70px;
+  }
+
+  hr {
+    display: none;
+   }
+
+  div.emoji-div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
   }
 }
 
@@ -116,9 +157,18 @@ p {
     font-size: 1.9em;
   }
 
+  h3 {
+    font-size: 1.5em;
+  }
+
   h4 {
     font-size: 1.35em;
     text-align: center;
+    margin: 10px;
+  }
+
+  p {
+    font-size: 14px;
   }
 
   button.cta-button {
@@ -140,38 +190,63 @@ p {
   button.cta-button {
     margin: 0 auto;
   }
+
+  section.about {
+    text-align: center;
+  }
+
+  button.cta-button {
+    justify-content: center;
+  }
+
+  section.trust-indicators {
+    justify-content: center;
+  }
+
+  div.trust-div {
+
+  }
+
+  section.trust-indicators h3 {
+    display: none;
+  }
+
+  hr {
+    margin: 0 auto;
+    border: 1px solid #4eb045;
+    width: 40%;
+   }
+
+   div.emoji-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.tagline {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+  }
+
 }
 
 /* ---- header ---- */
 
 /* ---- section about ---- */
 
-section.about {
-  text-align: center;
-}
-
 img.emoji {
   width: 30px;
-  padding: 0 5px;
-}
-
-div.emoji-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-div.tagline {
-  text-align: left;
-  width: 80%;
-  margin: 0 auto;
 }
 
 /* ---- section trust indicators ---- */
 
 section.trust-indicators {
  display: flex;
- justify-content: center;
+}
+
+div.trust-div {
+  display: flex;
 }
 
 .logos {
@@ -182,8 +257,6 @@ img.logos {
   height: 50px;
 }
 
-/* ---- footer ---- */
-
 /* ---- components ---- */
 
 button.cta-button {
@@ -191,18 +264,8 @@ button.cta-button {
   color: #fff;
   font-family: 'roboto';
   font-weight: 500;
-  justify-content: center;
   background-color: #4eb045;
   border-radius: 1px;
   border: 0;
   cursor: pointer;
 }
-
-hr {
-  margin: 0 auto;
-  border: 1px solid #4eb045;
-  width: 40%;
- }
-
-/* ---- css shame ---- */
-
