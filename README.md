@@ -1,11 +1,19 @@
 # tuna-plate 2018
 
 > Internal Ironhack Barcelona Hackathon (UX/UI + WebDev)
+With the mission to design, build & deploy a landing page dedicated to one of the many options of superfoods available.
 
 ## Description
-- Wireframe
-- Competition study
-- Instructions
+We want it to be a standalone web page for either a marketing or advertising campaign. It is considered the first touchpoint of the campaign with its target user. It uses an action to culminate a pitch and is accessed through Instagram, Facebook or Google Adwords for example.
+
+### Client Name
+Superfood Inc.
+
+### Client Background
+Agricultural Biotechnology focused on production of superfoods. 
+
+### Project Scope
+Reach a wider audience of users with a campaign to popularize superfoods. They want to convey that superfoods aren’t just healthy but also fun, young, and appealing.
 
 ## MVP // To do
 

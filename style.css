@@ -17,7 +17,7 @@ body {
 /* ---- typography ---- */
 
 h1 {
-    font-family: 'Franchise-Bold';
+    font-family: 'Franchise-Bold', 'Open Sans', sans-serif;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
@@ -262,7 +262,7 @@ img.logos {
 button.cta-button {
   display: block;
   color: #fff;
-  font-family: 'roboto';
+  font-family: 'roboto', 'Open Sans', sans-serif;
   font-weight: 500;
   background-color: #4eb045;
   border-radius: 1px;
